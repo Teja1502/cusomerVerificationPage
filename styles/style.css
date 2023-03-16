@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+}
+header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 86px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+header .profile-icon img{
+    width: 30px;
+    margin-right: 2em;
+}
+
+header nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+header nav .nav-list .list-items {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+header nav .nav-list .list-items a{
+    text-decoration: none;
+    color: grey;
+}
+
+header nav .nav-list .list-items a:hover {
+    color: aqua;
+}
+
+header .container .logo {
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+header .container .logo h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+header .container .logo h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f87b1;
+    margin-top: 0px;
+}
+
+.image-post .image-background img {
+    height: 150px;
+    width: 100%;
+}
+
+.image-post {
+    position: relative;
+}
+
+.image-post .container {
+    position: absolute;
+    top: 15%;
+    padding: 10px;
+    display: flex;
+    color: white;
+}
+
+.image-post .container h4 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.image-post .container p {
+    align-self: center;
+    margin-left: 750px;
+    font-size: 18px;
+}
+
+.employer-details {
+    margin: 15px 65px 0px 65px;
+    padding: 0px 15px;
+}
+
+.employer-details .box-details {
+    background-color: #eeeeee;
+    border-radius: 4px;
+}
+
+.employer-details .box-details .container {
+    padding: 30px;
+}
+
+.employer-details .box-details .container strong {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 0px;
+}
+
+.employer-details .box-details .container p {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.employer-details .box-details .container form .fields{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.employer-details .box-details .container form .fields .input-fields {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 15px);
+    padding-top: 18px;
+}
+
+.employer-details .box-details .container form .fields .input-fields label {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.employer-details .box-details .container form .fields .input-fields input {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-shadow: grey;
+    opacity: 0.4;
+}
+
+.employer-details .box-details .container .employee-title {
+    padding-top: 30px;
+}
+
+.employer-details .box-details .container .employee-info form .field-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.employer-details .box-details .container .employee-info form .field-info .input-details {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 15px);
+    padding-top: 18px;
+}
+
+.employer-details .box-details .container .employee-info form .field-info .input-details label {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.employer-details .box-details .container .employee-info form .field-info .input-details input {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-shadow: grey;
+    opacity: 0.4;
+}
+
+.employer-details .box-details .container .employee-info form .field-info .input-details select {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-shadow: grey;
+    opacity: 0.4;
+}
+
+.employer-details .box-details .container .employee-info form .field-info #message-block {
+    margin-right: auto;
+    margin-left: 23px;
+    width: 350px;
+}
+
+.employer-details .box-details .container .employee-info form .field-info .input-details textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-shadow: grey;
+    opacity: 0.4;
+}
+
+.employer-details .box-details .container .employee-info button {
+    margin-top: 20px;
+    padding: 13px;
+    background-color: #3498db;
+    color: white;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+}
+
+.bottom-bar .container {
+    padding: 25px 0px;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.bottom-bar .container p{
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+}
