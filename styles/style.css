@@ -129,6 +129,7 @@ header .container .logo h3{
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 10px;
+    color: rgb(65, 64, 64);
 }
 
 .employer-details .box-details .container form .fields .input-fields input {
@@ -162,6 +163,7 @@ header .container .logo h3{
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
+    color:rgb(65, 64, 64)
 }
 
 .employer-details .box-details .container .employee-info form .field-info .input-details input {
